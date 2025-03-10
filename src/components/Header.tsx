@@ -19,14 +19,14 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="container flex items-center justify-between h-20">
+      <div className="container flex items-center justify-between h-20 ">
         <div className="flex-shrink-0">
           <Link
             href="/"
             className="group flex items-center space-x-2 font-extrabold text-2xl tracking-tight"
           >
-            <div className="flex items-center bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-2 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <span className="mr-2">Placement <br></br>Scenario</span>
+            <div className="flex items-center bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-2 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl my-4">
+              <span className="mr-2">Placement </span>
               <span className="bg-white text-blue-900 px-2 py-1 rounded-md  font-black transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
                 ITS
               </span>
