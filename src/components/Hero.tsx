@@ -60,7 +60,7 @@ const rightFeatures = [
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br  from-blue-50 to-white h-screen flex items-center py-5">
+    <div className="relative overflow-hidden bg-gradient-to-br  from-blue-50 to-white h-screen flex items-center py-10">
       {/* Background Gradient Effects */}
       <div className="absolute top-0 -left-4 w-[600px] h-[600px] bg-blue-100/30 rounded-full blur-[120px]" />
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-100/20 rounded-full blur-[120px]" />
