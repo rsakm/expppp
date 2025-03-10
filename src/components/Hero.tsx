@@ -169,12 +169,11 @@ export default function Hero() {
           <h1 className="text-[64px] leading-[1.1] font-bold tracking-tight text-[#1E293B]">
             No Companies, No Placements:
             <br />
-            Our College’s <span className="text-blue-600">Broken Promise</span>
+            A harsh reality <span className="text-blue-600">& Broken Promise</span>
           </h1>
           <p className="mt-8 text-xl leading-8 text-gray-600 max-w-2xl mx-auto">
             Students are left without the opportunities they were promised,
-            struggling to find jobs in a competitive market while the college
-            administration remains inactive. It’s time to shine a light on this
+            struggling to find jobs in a competitive market while we approach the end of our final semester. It’s time to shine a light on this
             issue and demand the change we deserve.
           </p>
 

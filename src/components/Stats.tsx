@@ -6,11 +6,11 @@ export default function Stats() {
     },
     {
       value: "7 LPA",
-      label: "Highest Salary",
+      label: "Highest Salary ( Technical role )",
     },
     {
-      value: "45+",
-      label: "Companies Visited",
+      value: "4+",
+      label: "Companies on-Campus",
     },
   ];
 

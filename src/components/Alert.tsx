@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-const GRADUATION_DATE = new Date("2025-06-05T00:00:00");
+const GRADUATION_DATE = new Date("2025-05-05T00:00:00");
 const VISITOR_KEY = "alert_visitors";
 const GOOGLE_FORM_LINK =
   "https://docs.google.com/forms/d/e/1FAIpQLSf3naZeKzP-4_mt1T-Bj-kq-_eVrGBOmxzFGxE3CNw4ACoJpA/viewform"; // Replace with actual Google Form link
@@ -68,7 +68,7 @@ export default function Alert() {
                 <div className="font-bold text-xl">
                   {visitorCount.toLocaleString()}+
                 </div>
-                <div className="text-sm opacity-90">Students Taking Action</div>
+                <div className="text-sm opacity-90">People Taking Action</div>
               </div>
             </div>
 
@@ -123,16 +123,21 @@ export default function Alert() {
           {/* Motivational Message */}
           <div className="mt-6 text-center text-sm font-medium bg-white/10 rounded-xl p-4 backdrop-blur-sm animate-fade-in hover:bg-white/20 transition-colors">
             <span className="font-bold text-xl">
-              🎓 Your Future Is At Risk!
+              🎓 Future At Risk!
             </span>
-            <p className="mt-2">
+            <p className="mt-2 text-lg/7 ">
               Join{" "}
               <span className="font-bold text-yellow-200">
-                {visitorCount.toLocaleString()}+ students
+                {visitorCount.toLocaleString()}+ people
               </span>{" "}
               fighting for better placement opportunities. Time is running out -
               every voice matters in this battle for your future!
-            </p>
+            </p><br /><br />
+            <blockquote style={{ fontSize: "18px", fontStyle: "italic", color: "#555" }}>
+        "अपना दुख भी एक है साथी अपना सुख भी एक,
+अपनी मंजिल सच की मंजिल अपना रास्ता नेक ।
+      </blockquote><br />
+      <p className="text-gray-600 text-lg">साथी हाथ बढ़ाना !!"</p>
           </div>
         </div>
 

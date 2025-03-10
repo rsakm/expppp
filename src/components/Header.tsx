@@ -26,8 +26,8 @@ export default function Header() {
             className="group flex items-center space-x-2 font-extrabold text-2xl tracking-tight"
           >
             <div className="flex items-center bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-2 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <span className="mr-2">EXPOSED</span>
-              <span className="bg-white text-blue-600 px-2 py-1 rounded-md text-sm font-black transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
+              <span className="mr-2">Placement <br></br>Scenario</span>
+              <span className="bg-white text-blue-900 px-2 py-1 rounded-md  font-black transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
                 ITS
               </span>
             </div>
@@ -44,6 +44,17 @@ export default function Header() {
           >
             Home
           </Link>
+
+          <Link
+            href="/"
+            className={`${isActive(
+              "/"
+            )} hover:text-blue-600 font-medium transition-colors`}
+          >
+            Companies
+          </Link>
+          
+
 
           <button className="btn btn-primary" onClick={handleWriteToUs}>
             Google Form
@@ -105,6 +116,16 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Home
+            </Link>
+
+            <Link
+              href="/"
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive(
+                "/"
+              )} hover:text-blue-600 hover:bg-gray-50`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+             View Companies
             </Link>
 
             <div className="pt-2">

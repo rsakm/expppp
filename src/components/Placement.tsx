@@ -177,14 +177,14 @@ export default function Placement() {
           <div className="inline-block">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 relative">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">
-                Shamefully Low Packages
+                Non-Tech roles, Heavy Bond & Low Packages
               </span>
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-full transform scale-x-0 animate-expand"></div>
             </h1>
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            <span className="text-red-600 font-semibold">Exposing</span> the
-            reality of placement packages that are far below industry standards
+            <span className="text-red-600 font-semibold">Shocked ? </span>But it's the
+            reality of placement scenario
           </p>
         </div>
 

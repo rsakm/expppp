@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+// import [companyVisits] from "@/db/companies";
 
 export default function ValuePoints() {
   // Update the floating elements configuration with more visible colors and proper z-index
@@ -171,11 +172,11 @@ export default function ValuePoints() {
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Last 3 Placements:
             <br />
-            Shamefully <span className="text-blue-600">Low Packages.</span>
+            A walk-in or pool campus<br></br> <span className="text-blue-600">Bond & Low Packages.</span>
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
-            Recent placements reveal the college's failure—students offered
+            Recent placements reveal our failure—students are offered on bond
             salaries far below industry standards, barely enough to survive.
           </p>
         </div>
@@ -254,7 +255,7 @@ export default function ValuePoints() {
                       d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Bond: 2 Years</span>
+                  <span className="text-red-500">Bond: 2 Years</span>
                 </div>
               </div>
               <div className="bg-blue-50 rounded-lg p-4 space-y-2">
@@ -285,7 +286,7 @@ export default function ValuePoints() {
           <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border border-gray-100">
             <div className="relative">
               <div className="absolute -top-4 -right-4 bg-red-50 rounded-full w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span className="text-red-600 font-bold">₹5.5L</span>
+                <span className="text-red-600 font-bold">₹5.0L</span>
               </div>
               <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform duration-300">
                 <svg
@@ -353,7 +354,7 @@ export default function ValuePoints() {
                       d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Bond: 1.5 Years</span>
+                  <span className="text-red-500">Bond: 1.5 Years</span>
                 </div>
               </div>
               <div className="bg-blue-50 rounded-lg p-4 space-y-2">
@@ -375,7 +376,7 @@ export default function ValuePoints() {
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">Annual Package</span>
                   <span className="text-lg font-bold text-red-600">
-                    ₹5.5 LPA
+                    ₹5.0 LPA
                   </span>
                 </div>
               </div>
@@ -386,7 +387,7 @@ export default function ValuePoints() {
           <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border border-gray-100">
             <div className="relative">
               <div className="absolute -top-4 -right-4 bg-red-50 rounded-full w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span className="text-red-600 font-bold">₹4.5L</span>
+                <span className="text-red-600 font-bold">₹4.0L</span>
               </div>
               <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform duration-300">
                 <svg
@@ -454,7 +455,7 @@ export default function ValuePoints() {
                       d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Bond: 0 Years</span>
+                  <span className="text-green-400">Bond: 0 Years</span>
                 </div>
               </div>
               <div className="bg-blue-50 rounded-lg p-4 space-y-2">
@@ -476,7 +477,7 @@ export default function ValuePoints() {
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">Annual Package</span>
                   <span className="text-lg font-bold text-red-600">
-                    ₹4.5 LPA
+                    ₹4.0 LPA
                   </span>
                 </div>
               </div>
