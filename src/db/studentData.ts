@@ -725,4 +725,36 @@ export const placements: PlacementData[] = [
     },
     domain:"Tech"
   },
+  {
+    id: 41,
+    name: "Mrityunjay rai",
+    company: "Prutor.ai",
+    role: "SDE",
+    package: 4,
+    bond: 0,
+    month: "September",
+    year: 2024,
+    internship: {
+      duration: 6,
+      stipend: 15000,
+      hasInternship: true,
+    },
+    domain:"Tech"
+  },
+  {
+    id: 41,
+    name: "Vikash Tiwari",
+    company: "Prutor.ai",
+    role: "SDE",
+    package: 4,
+    bond: 0,
+    month: "September",
+    year: 2024,
+    internship: {
+      duration: 6,
+      stipend: 15000,
+      hasInternship: true,
+    },
+    domain:"Tech"
+  },
 ];
