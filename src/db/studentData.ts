@@ -707,7 +707,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
-    domain:"Semi-Tech"
+    domain:"Tech"
   },
   {
     id: 41,
