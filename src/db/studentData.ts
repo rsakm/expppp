@@ -7,6 +7,7 @@ interface PlacementData {
   bond: number;
   month: string;
   year: number;
+  domain:string;
   internship: {
     duration: number;
     stipend: number;
@@ -29,6 +30,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Tech"
   },
   {
     id: 2,
@@ -44,6 +46,7 @@ export const placements: PlacementData[] = [
       stipend: 25000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 3,
@@ -59,6 +62,7 @@ export const placements: PlacementData[] = [
       stipend: 15000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 4,
@@ -74,6 +78,7 @@ export const placements: PlacementData[] = [
       stipend: 15000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 5,
@@ -89,6 +94,7 @@ export const placements: PlacementData[] = [
       stipend: 15000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
 
   {
@@ -105,6 +111,7 @@ export const placements: PlacementData[] = [
       stipend: 12000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 7,
@@ -120,6 +127,7 @@ export const placements: PlacementData[] = [
       stipend: 12000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
 
   {
@@ -136,6 +144,7 @@ export const placements: PlacementData[] = [
       stipend: 18000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 9,
@@ -151,6 +160,7 @@ export const placements: PlacementData[] = [
       stipend: 18000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 10,
@@ -166,6 +176,7 @@ export const placements: PlacementData[] = [
       stipend: 18000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 11,
@@ -181,6 +192,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 12,
@@ -196,6 +208,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 13,
@@ -211,6 +224,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 14,
@@ -226,6 +240,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 15,
@@ -241,6 +256,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 16,
@@ -256,6 +272,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
 
   {
@@ -272,6 +289,7 @@ export const placements: PlacementData[] = [
       stipend: 11000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 18,
@@ -287,6 +305,7 @@ export const placements: PlacementData[] = [
       stipend: 11000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 19,
@@ -302,6 +321,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
 
   {
@@ -318,6 +338,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 21,
@@ -333,6 +354,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 22,
@@ -348,13 +370,14 @@ export const placements: PlacementData[] = [
       stipend: 20000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
 
   {
     id: 23,
     name: "Abhishek Yadav ",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -364,12 +387,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 24,
     name: "Adarsh Kumar Jha",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -379,12 +403,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 25,
     name: "Aditya Dagar",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -394,12 +419,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 26,
     name: "Afzal Ansari",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -409,12 +435,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 27,
     name: "Ankul Kumar",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -424,12 +451,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 28,
     name: "Mohd Saad",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -439,12 +467,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 29,
     name: "Nishant Kumar Dubey ",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -454,12 +483,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 30,
     name: "Nitin Yadav",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -469,12 +499,13 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 31,
     name: "Uttapal Kant",
     company: "Indus Tower",
-    role: "Graduate Engineer Trainee",
+    role: "Associate",
     package: 3,
     bond: 0,
     month: "December",
@@ -484,6 +515,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 32,
@@ -499,6 +531,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 33,
@@ -514,6 +547,7 @@ export const placements: PlacementData[] = [
       stipend: 10000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
   {
     id: 34,
@@ -529,6 +563,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 35,
@@ -544,6 +579,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"non-Tech"
   },
   {
     id: 36,
@@ -559,6 +595,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 35,
@@ -574,6 +611,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 36,
@@ -589,6 +627,7 @@ export const placements: PlacementData[] = [
       stipend: 15000,
       hasInternship: true,
     },
+    domain:"Non-Tech"
   },
   {
     id: 37,
@@ -604,6 +643,7 @@ export const placements: PlacementData[] = [
       stipend: 15000,
       hasInternship: true,
     },
+    domain:"Non-Tech"
   },
   {
     id: 38,
@@ -619,6 +659,7 @@ export const placements: PlacementData[] = [
       stipend: 15000,
       hasInternship: true,
     },
+    domain:"Non-Tech"
   },
   {
     id: 39,
@@ -634,6 +675,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Non-Tech"
   },
   {
     id: 40,
@@ -649,6 +691,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Semi-Tech"
   },
   {
     id: 40,
@@ -664,6 +707,7 @@ export const placements: PlacementData[] = [
       stipend: 0,
       hasInternship: false,
     },
+    domain:"Semi-Tech"
   },
   {
     id: 41,
@@ -679,5 +723,6 @@ export const placements: PlacementData[] = [
       stipend: 20000,
       hasInternship: true,
     },
+    domain:"Tech"
   },
 ];

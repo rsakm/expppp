@@ -421,9 +421,28 @@ export default function Placement() {
                           d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
-                      <span>Bond: {placement.bond} Years</span>
+                      <span>Bond: {placement.bond} Years</span><br />
+                      
+                    </div>
+                    <div className="flex items-center text-gray-600">
+                      <svg
+                        className="w-5 h-5 mr-2 text-red-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      <span>Hired under: {placement.domain} Role</span>
+                      
                     </div>
                   </div>
+                  
 
                   {placement.internship.hasInternship && (
                     <div className="bg-red-50 rounded-lg p-4 space-y-2">
@@ -441,6 +460,7 @@ export default function Placement() {
                         <span className="font-medium text-red-800">
                           ₹{placement.internship.stipend.toLocaleString()}/month
                         </span>
+                       
                       </div>
                     </div>
                   )}
