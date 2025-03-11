@@ -6,11 +6,8 @@
 // module.exports = nextConfig;
 
 
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  target: 'serverless',  // Ensures your app is optimized for serverless environments (like Netlify)
-  
   images: {
     domains: ['your-image-domain.com'], // Replace with actual image domains you're using (if any)
   },
