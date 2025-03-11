@@ -727,7 +727,7 @@ export const placements: PlacementData[] = [
   },
   {
     id: 42,
-    name: "Mrityunjay rai",
+    name: "Mrityunjay Rai",
     company: "Prutor.ai",
     role: "SDE",
     package: 4,
@@ -790,7 +790,7 @@ export const placements: PlacementData[] = [
     domain:"Tech"
   },
   {
-    id: 45,
+    id: 46,
     name: "Aryan Jha",
     company: "CodingWorkx",
     role: "Software Trainee",
